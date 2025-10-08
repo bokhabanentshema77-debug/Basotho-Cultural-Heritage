@@ -1,0 +1,99 @@
+body{
+font-family:"helvetica Neue",
+Arial,sans-serif;
+font-size:16px;/*comment*/
+background-color:gray;
+}
+h1{
+font-size:1cm;
+font-weight:bold;
+color:black;
+}
+p{
+line-height:1.5;
+text-align:justify;
+font-size:20px;
+color:skyblue;
+}
+ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+     background-color:skyblue;
+    display:flex;
+}
+
+ul li a {
+diplay:block;
+color:white;
+font-size:30px;
+text-align:center;
+padding:14px 16px;
+text-decoration:none;
+font-family:copperplat;
+}
+
+ul li a:hover {
+background-color:#111111;
+}
+div{
+  border-style: ridge;
+  border-color: navy;
+  border-radius: 10px;
+  width: 800px;
+}
+
+
+    /* --- Color Scheme --- */
+    body {
+      background-color: gray;
+      color: #333;
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: gray; /* earthy tone */
+      color: white;
+      text-align: center;
+      padding: 1.5rem 0;
+      border-bottom: 5px solid #d4a574;
+    }
+
+    h1, h2 {
+      margin: 0.5rem 0;
+    }
+
+    /* --- Layout & Spacing --- */
+    .crafts-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 2rem;
+    }
+
+    /* --- Craft Card Styling --- */
+    .craft-card {
+      background: #fff;
+      border: 2px solid #d4a574;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 1rem;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .craft-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+    }
+
+    .craft-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+    }
+
